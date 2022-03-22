@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzzer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bundler.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="bg-gray-900">
+    <div id="loading" class="grid w-full h-full fixed place-content-center justify-items-center">
+        <div class="w-7 h-7 bg-green-500 rounded-full animate-ping"></div>
+    </div>
+    <div class="buzzer-content hidden">
+        <div class="grid h-full place-content-center justify-items-center nft-id">
+            <div class="flex">
+                <div class="flex-initial">
+                    <input type="text" class="mr-0 p-1 h-8 bg-gray-200 ring-0 focus:ring-0 text-black block w-full shadow-inner rounded-l-md 0x4565_id_inp" placeholder="Enter NFT id">
+                </div>
+                <div class="flex-initial">
+                    <button class="ml-0 p-1 h-8 bg-gradient-to-r from-sky-500 via-indigo-500 to-purple-500 hover:from-sky-700 hover:via-indigo-700 hover:to-purple-700 hover:text-gray-300 text-white font-bold rounded-r-md w-auto 0x4565_id_but">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<body>
